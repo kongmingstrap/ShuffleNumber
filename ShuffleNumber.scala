@@ -5,7 +5,7 @@ object ShuffleNumber {
 
     val numbers: Array[Int] = args.length match {
       case 0 | 1 => {
-        println("requered 2 args\n")
+        println("required 2 args\n")
         return
       }
       case _ => {
